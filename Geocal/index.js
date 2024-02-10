@@ -1,0 +1,15 @@
+const geocal= require('./geocalc');
+console.log('Volume Of cube (side =5) :',geocal.cubeVol(5));
+console.log('Surface Area of cube (side =5)',geocal.cubeSurfaceArea(5));
+console.log('Volume Of cuboid (Legnth=5,width=3 ,height=2)',geocal.cuboidVol(5,3,2));
+console.log('Surface Area of cuboid (Legnth=5,width=3 ,height=2)',geocal.cuboidSurfaceArea(5,3,2));
+console.log('Volume Of Sphere (Raduis =4)',geocal.sphereVol(4));
+console.log('Surface Area of  Sphere (Raduis =4)',geocal.spherSurfaceArea(4));
+console.log('Volume Of cylinder (Raduis =3,height=5) ',geocal.cylinderVol(3,5));
+console.log('Surface Area of cylinder (Raduis =3,height=5)',geocal.cylinderSurfaceArea(3,5));
+console.log('Volume Of cone(Raduis =4,height=7) ',geocal.conVol(4,7));
+console.log('Surface Area of cone(Raduis =4,Slant height=7)',geocal.coneSurfaceArea(4,7));
+console.log('Volume Of pyramid (Base Perimiter =15,Slant height=8)',geocal.pyramidVol(15,8));
+console.log('Surface Area of pyramid (Base Perimiter =12,Slant height=10)',geocal.pyramidSurfaceArea(12,10));
+console.log('Volume Of Ellisoid (Raduis =3,4,5)',geocal.ellipsoidVolume(3,4,5));
+console.log('Surface Area of Ellisoid (Raduis =3,4,5)',geocal.ellipsoidSurfaceArea(3,4,5));
